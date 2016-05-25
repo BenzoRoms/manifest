@@ -17,45 +17,54 @@
            fetch="https://bitbucket.org" />
 
   <!-- Benzo Main -->
-  <project path="build" name="BenzoRom64/build" groups="pdk" remote="github" revision="marshmallow" >
+  <project path="build" name="BenzoRoms/build" groups="pdk" remote="github" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="BenzoRom64/art" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="bionic" name="BenzoRom64/bionic" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="dalvik" name="BenzoRom64/dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
-  <project path="frameworks/rs" name="BenzoRom64/frameworks_rs" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="frameworks/support" name="BenzoRom/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
-  <project path="libcore" name="BenzoRom64/libcore" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="libnativehelper" name="BenzoRom/libnativehelper" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="art" name="BenzoRoms/art" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="bionic" name="BenzoRoms/bionic" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="dalvik" name="BenzoRoms/dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="frameworks/base" name="BenzoRoms/frameworks_base" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="frameworks/native" name="BenzoRoms/frameworks_native" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="frameworks/rs" name="BenzoRoms/frameworks_rs" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="frameworks/support" name="BenzoRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="hardware/qcom/audio" name="BenzoRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="marshmallow" />
+  <project path="libcore" name="BenzoRoms/libcore" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="libnativehelper" name="BenzoRoms/libnativehelper" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="system/core" name="BenzoRoms/system_core" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="system/extras" name="BenzoRoms/system_extras" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="system/netd" name="BenzoRoms/system_netd" groups="pdk" remote="github" revision="marshmallow" />
 
   <!-- Externals -->
   <project path="external/busybox" name="BenzoRom/external_busybox" remote="github" revision="marshmallow" />
-  <project path="external/google" name="BenzoRom/external_google" remote="github" revision="marshmallow" />
-  <project path="external/libncurses" name="BenzoRom/external_libncurses" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/nano" name="BenzoRom/external_nano" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/proguard" name="BenzoRom/external_proguard" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/sepolicy" name="BenzoRom/external_sepolicy" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/skia" name="BenzoRom64/external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="marshmallow" />
-  <project path="external/sqlite" name="BenzoRom/external_sqlite" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/v8" name="BenzoRom/external_v8" groups="pdk" remote="github" revision="marshmallow" />
-  <project path="external/vixl" name="BenzoRom/external_vixl" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/chromium-libpac" name="BenzoRoms/external_chromium-libpac" remote="github" revision="marshmallow" />
+  <project path="external/google" name="BenzoRoms/external_google" remote="github" revision="marshmallow" />
+  <project path="external/guava" name="BenzoRomss/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="external/libncurses" name="BenzoRoms/external_libncurses" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/nano" name="BenzoRoms/external_nano" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/proguard" name="BenzoRoms/external_proguard" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/sepolicy" name="BenzoRoms/external_sepolicy" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/skia" name="BenzoRoms/external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="marshmallow" />
+  <project path="external/sqlite" name="BenzoRoms/external_sqlite" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/v8" name="BenzoRoms/external_v8" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="external/vixl" name="BenzoRoms/external_vixl" groups="pdk" remote="github" revision="marshmallow" />
 
   <!-- Packages -->
-  <project path="packages/apps/Browser" name="BenzoRom/packages_apps_Browser" remote="github" revision="marshmallow" />
-  <project path="packages/apps/DeskClock" name="BenzoRom/packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="marshmallow" />
-  <project path="packages/apps/Messaging" name="BenzoRom/packages_apps_Messaging" groups="pdk-fs" remote="github" revision="marshmallow" />
-  <project path="packages/inputmethods/LatinIME" name="BenzoRom/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/Browser" name="BenzoRoms/packages_apps_Browser" remote="github" revision="marshmallow" />
+  <project path="packages/apps/DeskClock" name="BenzoRoms/packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/Messaging" name="BenzoRoms/packages_apps_Messaging" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/Settings" name="BenzoRoms/packages_apps_Settings" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/inputmethods/LatinIME" name="BenzoRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="marshmallow" />
 
   <!-- Device & kernel -->
-  <project path="device/huawei/angler" name="BenzoRom64/device_huawei_angler" groups="device,angler,broadcom_pdk" remote="github" revision="marshmallow" />
-  <project path="kernel/huawei/angler" name="BenzoRom64/kernel_huawei_angler" remote="github" revision="marshmallow" />
+  <project path="device/huawei/angler" name="BenzoRoms/device_huawei_angler" groups="device,angler,broadcom_pdk" remote="github" revision="marshmallow" />
+  <project path="kernel/huawei/angler" name="BenzoRoms/kernel_huawei_angler" remote="github" revision="marshmallow" />
 
   <!-- Vendors -->
-  <project path="vendor/benzo" name="BenzoRom64/vendor_benzo" remote="github" revision="marshmallow" />
-  <project path="vendor/huawei" name="BenzoRom64/vendor_huawei_angler" remote="github" revision="marshmallow" />
+  <project path="vendor/benzo" name="BenzoRoms/vendor_benzo" remote="github" revision="marshmallow" />
+  <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="marshmallow" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/ndk" name="BenzoRom64/prebuilts_ndk" groups="pdk" remote="github" revision="marshmallow" />
+  <project path="prebuilts/ndk" name="BenzoRoms/prebuilts_ndk" groups="pdk" remote="github" revision="marshmallow" />
   <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9" groups="pdk,linux" remote="bb" revision="dragontc" />
 
   <!-- AOSP -->
@@ -147,7 +156,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -287,7 +295,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -296,7 +303,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -344,7 +350,6 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
@@ -399,7 +404,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -460,12 +464,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
