@@ -63,12 +63,15 @@
   <project path="packages/apps/Dialer" name="BenzoRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/InCallUI" name="BenzoRoms/packages_apps_InCallUI" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Launcher3" name="BenzoRoms/packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/LockClock" name="BenzoRoms/packages_apps_LockClock" remote="github" revision="marshmallow" />
   <project path="packages/apps/Messaging" name="BenzoRoms/packages_apps_Messaging" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/OmniStyle" name="BenzoRoms/packages_apps_OmniStyle" remote="github" revision="marshmallow" />
   <project path="packages/apps/OmniSwitch" name="BenzoRoms/packages_apps_OmniSwitch" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/PackageInstaller" name="BenzoRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Settings" name="BenzoRoms/packages_apps_Settings" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/inputmethods/LatinIME" name="BenzoRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/providers/TelephonyProvider" name="BenzoRoms/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/services/OmniJaws" name="BenzoRoms/packages_services_OmniJaws" remote="github" revision="marshmallow" />
   <project path="packages/services/Telecomm" name="BenzoRoms/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/services/Telephony" name="BenzoRoms/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
 
