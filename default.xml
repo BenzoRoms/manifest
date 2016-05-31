@@ -27,6 +27,7 @@
   <project path="frameworks/base" name="BenzoRoms/frameworks_base" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/native" name="BenzoRoms/frameworks_native" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/opt/cards" name="BenzoRoms/frameworks_opt_cards" remote="github" revision="marshmallow" />
+  <project path="frameworks/opt/telephony" name="BenzoRoms/frameworks_opt_telephony" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/rs" name="BenzoRoms/frameworks_rs" groups="pdk" remote="github" revision="marshmallow" />
   <project path="frameworks/support" name="BenzoRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="hardware/qcom/audio" name="BenzoRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="marshmallow" />
@@ -54,14 +55,22 @@
   <project path="external/vixl" name="BenzoRoms/external_vixl" groups="pdk" remote="github" revision="marshmallow" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="BenzoRoms/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Browser" name="BenzoRoms/packages_apps_Browser" remote="github" revision="marshmallow" />
+  <project path="packages/apps/Contacts" name="BenzoRoms/packages_apps_Contacts" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/ContactsCommon" name="BenzoRoms/packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/DeskClock" name="BenzoRoms/packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Dialer" name="BenzoRoms/packages_apps_Dialer" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/InCallUI" name="BenzoRoms/packages_apps_InCallUI" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/Launcher3" name="BenzoRoms/packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Messaging" name="BenzoRoms/packages_apps_Messaging" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/apps/OmniSwitch" name="BenzoRoms/packages_apps_OmniSwitch" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/PackageInstaller" name="BenzoRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/apps/Settings" name="BenzoRoms/packages_apps_Settings" groups="pdk-fs" remote="github" revision="marshmallow" />
   <project path="packages/inputmethods/LatinIME" name="BenzoRoms/packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/providers/TelephonyProvider" name="BenzoRoms/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/services/Telecomm" name="BenzoRoms/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
+  <project path="packages/services/Telephony" name="BenzoRoms/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="marshmallow" />
 
   <!-- Device & kernel -->
   <project path="device/huawei/angler" name="BenzoRoms/device_huawei_angler" groups="device,angler,broadcom_pdk" remote="github" revision="marshmallow" />
@@ -313,7 +322,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
@@ -365,7 +373,6 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -373,8 +380,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
@@ -383,7 +388,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
@@ -414,15 +418,12 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
