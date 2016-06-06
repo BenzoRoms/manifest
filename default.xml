@@ -34,7 +34,6 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="benzo" revision="marshmallow" />
   <project path="libcore" name="libcore" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="libnativehelper" name="libnativehelper" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/core" name="system_core" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -43,6 +42,7 @@
   <project path="system/security" name="system_security" groups="pdk" remote="benzo" revision="marshmallow" />
 
   <!-- Externals -->
+  <project path="external/android-snackbar" name="external_android-snackbar" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/busybox" name="external_busybox" remote="benzo" revision="marshmallow" />
   <project path="external/chromium-libpac" name="external_chromium-libpac" remote="benzo" revision="marshmallow" />
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -93,6 +93,7 @@
   <project path="vendor/huawei" name="vendor_huawei_angler" remote="benzo" revision="marshmallow" />
 
   <!-- Hardware -->
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="benzo" revision="marshmallow" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="benzo" revision="marshmallow" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="benzo" revision="marshmallow" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="benzo" revision="marshmallow" />
