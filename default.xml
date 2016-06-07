@@ -62,6 +62,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
+  <project path="packages/apps/BenzoOTA" name="packages_apps_BenzoOTA" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="benzo" revision="marshmallow" />
