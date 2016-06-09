@@ -26,6 +26,7 @@
   <project path="art" name="art" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="bionic" name="bionic" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
+  <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -64,6 +65,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/BenzoOTA" name="packages_apps_BenzoOTA" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="benzo" revision="marshmallow" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="benzo" revision="marshmallow" />
@@ -116,7 +118,6 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
@@ -393,7 +394,6 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
