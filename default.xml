@@ -43,10 +43,10 @@
   <project path="system/security" name="system_security" groups="pdk" remote="benzo" revision="marshmallow" />
 
   <!-- Externals -->
-  <project path="external/android-snackbar" name="external_android-snackbar" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/busybox" name="external_busybox" remote="benzo" revision="marshmallow" />
   <project path="external/chromium-libpac" name="external_chromium-libpac" remote="benzo" revision="marshmallow" />
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/google" name="external_google" remote="benzo" revision="marshmallow" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="external/ipsec-tools" name="external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
@@ -61,6 +61,8 @@
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/vixl" name="external_vixl" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/webp" name="external_webp" groups="pdk,qcom_msm8x26" remote="benzo" revision="marshmallow" />
+  <project path="external/zlib" name="external_zlib" groups="pdk" remote="benzo" revision="marshmallow" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
@@ -168,7 +170,6 @@
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
@@ -313,12 +314,10 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
