@@ -53,6 +53,7 @@
   <project path="external/jarjar" name="external_jarjar" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/libncurses" name="external_libncurses" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/nano" name="external_nano" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -230,7 +231,6 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
