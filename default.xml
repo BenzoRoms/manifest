@@ -58,7 +58,6 @@
   <project path="external/libncurses" name="external_libncurses" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="marshmallow" />
-  <project path="external/libxml2" name="external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="benzo" revision="marshmallow" />
   <project path="external/nano" name="external_nano" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -245,6 +244,7 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
