@@ -39,6 +39,7 @@
   <project path="libnativehelper" name="libnativehelper" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/core" name="system_core" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="system/media" name="system_media" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/security" name="system_security" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -468,7 +469,6 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
