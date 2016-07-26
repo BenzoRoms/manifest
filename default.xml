@@ -104,13 +104,10 @@
   <!-- Device & kernel -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="benzo" revision="marshmallow" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="benzo" revision="marshmallow" />
-  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="benzo" revision="marshmallow" />
-  <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="benzo" revision="marshmallow" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" revision="marshmallow" />
   <project path="vendor/huawei" name="vendor_huawei_angler" remote="benzo" revision="marshmallow" />
-  <project path="vendor/motorola" name="vendor_motorola_shamu" remote="benzo" revision="marshmallow" />
 
   <!-- Hardware -->
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="benzo" revision="marshmallow" />
