@@ -29,6 +29,7 @@
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="benzo" revision="marshmallow" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -59,6 +60,7 @@
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/libncurses" name="external_libncurses" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/libopus" name="external_libopus" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/nano" name="external_nano" groups="pdk" remote="benzo" revision="marshmallow" />
@@ -102,6 +104,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="benzo" revision="marshmallow" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
+  <project path="packages/apps/Terminal" name="packages_services_Terminal" groups="pdk-fs" remote="benzo" revision="marshmallow" />
 
   <!-- Device & kernel -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="benzo" revision="marshmallow" />
@@ -237,7 +240,6 @@
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
-  <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
@@ -330,7 +332,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
@@ -424,7 +425,6 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
-  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
