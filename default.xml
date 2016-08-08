@@ -126,9 +126,9 @@
   <project path="prebuilts/clang/linux-x86/host/4.0" name="xanaxdroid/dragontc-4.0" groups="pdk,linux" remote="bb" revision="dragontc" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1" name="xanaxdroid/aarch64-6.1" remote="bb" revision="sabermod" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="xanaxdroid/aarch64-linux-android-6.1" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="xanaxdroid/aarch64-linux-android-6.1" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="xanaxdroid/arm-eabi-7.0" remote="bb" revision="sabermod" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1" name="xanaxdroid/arm-linux-androideabi-6.1" groups="pdk,linux,arm" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1" name="xanaxdroid/arm-linux-androideabi-6.1" groups="pdk,linux,arm" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" clone-depth="1" remote="benzo" revision="marshmallow" />
 
   <!-- AOSP -->
