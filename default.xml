@@ -95,7 +95,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="benzo" revision="marshmallow" />
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" groups="pdk-fs" remote="benzo" revision="marshmallow" />
+  <project path="packages/apps/SnapBrowser" name="packages_apps_SnapBrowser" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Viper4Android" name="packages_apps_Viper4Android" remote="benzo" revision="marshmallow" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
