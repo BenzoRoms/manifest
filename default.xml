@@ -65,6 +65,7 @@
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/nano" name="external_nano" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/okhttp" name="external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
+  <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="benzo" revision="marshmallow" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="marshmallow" />
@@ -95,7 +96,6 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="benzo" revision="marshmallow" />
-  <project path="packages/apps/SnapBrowser" name="packages_apps_SnapBrowser" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/apps/Viper4Android" name="packages_apps_Viper4Android" remote="benzo" revision="marshmallow" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="benzo" revision="marshmallow" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="marshmallow" />
@@ -112,6 +112,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" revision="marshmallow" />
+  <project path="vendor/addons" name="vendor_addons" remote="benzo" revision="marshmallow" />
   <project path="vendor/huawei" name="vendor_huawei_angler" remote="benzo" revision="marshmallow" />
 
   <!-- Hardware -->
@@ -291,7 +292,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
