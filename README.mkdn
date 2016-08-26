@@ -1,0 +1,88 @@
+Benzo Rom
+===========
+
+Some info might be outdated, but you can get the gist if it is.
+
+Getting Started
+---------------
+
+To get started with Benzo, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository use a command like this:
+
+    repo init -u git://github.com/BenzoRoms/manifest.git -b nougat
+
+Then to sync up:
+
+    repo sync -f -j8
+
+
+Instructions for building with Arch Linux
+=========================================
+
+Install the needed packages
+---------------------------
+yaourt -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs lib32-readline libtinfo optipng pngcrush pngquant 
+
+Setup repo and other stuff
+--------------------------
+mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo &&chmod a+x ~/bin/repo
+
+nano ~/.bashrc
+
+export PATH=~/bin:$PATH
+
+source ~/.bashrc
+
+To build using SaberMod toolchains
+----------------------------------
+yaourt -S sabermod-prebuilts
+
+
+To set up adb
+-------------
+yaourt -S android-tools android-udev
+
+Then run: gpasswd -a yourusername adbusers
+
+
+To build using Oracle Java
+--------------------------
+yaourt -S jdk
+
+Then run "archlinux-java status" to see which versions you have installed.
+
+Then run "sudo archlinux-java set java-8-jdk" to set java 8 as default
+
+Verify in a new terminal if it’s set correctly: “which java“, “which javac“, “java -version“, “javac -version“
+
+
+Instructions for building with Ubuntu/Mint
+==========================================
+
+If you want to use Oracle Java
+------------------------------
+udo aptitude purge openjdk-* icedtea-* icedtea6-*
+
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo aptitude update && sudo aptitude install oracle-java7-installer
+
+Install required packages
+-------------------------
+sudo aptitude install git gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev libbz2-1.0:i386 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z1-dev libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32-binutils tofrodos python-markdown libxml2-utils xsltproc libreadline6-dev lib32readline-gplv2-dev libncurses5-dev bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev libbz2-dev:i386 squashfs-tools pngcrush schedtool dpkg-dev libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential gcc-multilib g++-multilib libncurses5-dev flex bison libtool gawk libtool libmpfr-dev libmpc-dev libisl-dev
+
+Setup repo and other stuff
+--------------------------
+sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
+
+mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo &&chmod a+x ~/bin/repo
+
+nano ~/.bashrc
+
+export PATH=~/bin:$PATH
+
+source ~/.bashrc
+
+
