@@ -18,13 +18,14 @@
   <project path="build" name="build" groups="pdk" remote="benzo" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="benzo" revision="nougat" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="benzo" revision="nougat" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="art" groups="pdk" remote="benzo" revision="nougat" />
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="benzo" revision="nougat" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="bionic" name="bionic" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
+  <project path="system/core" name="system_core" groups="pdk" remote="benzo" revision="nougat" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" revision="nougat" />
 
   <!-- Externals -->
@@ -63,7 +64,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
