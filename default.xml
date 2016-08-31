@@ -31,9 +31,10 @@
   <!-- Externals -->
   <project path="external/busybox" name="external_busybox" remote="benzo" revision="nougat" />
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="nougat" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" revision="nougat" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/v8" name="external_v8" groups="pdk" remote="benzo" revision="nougat" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
@@ -203,7 +204,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
