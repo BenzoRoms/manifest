@@ -34,6 +34,7 @@
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="nougat" />
@@ -46,11 +47,13 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" revision="nougat" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="benzo" revision="nougat" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
@@ -206,7 +209,6 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
@@ -361,7 +363,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
@@ -378,7 +379,6 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
