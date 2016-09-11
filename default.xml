@@ -30,6 +30,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" revision="nougat" />
 
   <!-- Externals -->
+  <project path="external/aac" name="external_aac" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/busybox" name="external_busybox" remote="benzo" revision="nougat" />
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" revision="nougat" />
@@ -82,7 +83,6 @@
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
