@@ -23,7 +23,7 @@ Instructions for building with Arch Linux
 
 Install the needed packages
 ---------------------------
-yaourt -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs lib32-readline libtinfo optipng pngcrush pngquant 
+yaourt -S bc git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs lib32-readline libtinfo optipng pngcrush pngquant 
 
 Setup repo and other stuff
 --------------------------
