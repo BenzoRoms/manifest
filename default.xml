@@ -35,7 +35,7 @@
   <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" revision="nougat" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="benzo" revision="nougat" />
-  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="libcore" name="libcore" groups="pdk" remote="benzo" revision="nougat" />
   <project path="system/core" name="system_core" groups="pdk" remote="benzo" revision="nougat" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="benzo" revision="nougat" />
