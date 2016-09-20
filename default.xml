@@ -67,6 +67,7 @@
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
@@ -191,7 +192,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
