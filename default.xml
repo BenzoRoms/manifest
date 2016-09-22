@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="benzo" revision="nougat" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="benzo" revision="nougat" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -42,6 +42,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" revision="nougat" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="sabermod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="benzo" revision="nougat" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
@@ -503,7 +504,6 @@
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
