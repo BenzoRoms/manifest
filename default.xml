@@ -42,7 +42,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" revision="nougat" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="sabermod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
-  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="prebuilts/sdk" name="xanaxdroid/prebuilts_sdk" groups="pdk" remote="bb" revision="nougat" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
