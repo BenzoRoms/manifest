@@ -34,6 +34,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="benzo" revision="nougat" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="benzo" revision="nougat" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="libcore" name="libcore" groups="pdk" remote="benzo" revision="nougat" />
@@ -372,7 +373,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
