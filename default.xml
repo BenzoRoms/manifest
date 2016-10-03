@@ -78,6 +78,7 @@
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" revision="nougat" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="nougat" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" revision="nougat" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="benzo" revision="nougat" />
@@ -301,7 +302,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
