@@ -54,7 +54,6 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk,linux" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="xanaxdroid/dragontc-5.0" groups="pdk,linux" revision="dragon-tc" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="xanaxdroid/aarch64-6.3" remote="bb" revision="linaro" clone-depth="1" />
-  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk/renderscript" name="prebuilts_sdk_renderscript" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk/tools/linux" name="prebuilts_sdk_tools_linux" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.2" name="aarch64-linux-android-6.2" groups="pdk,linux,arm" remote="benzo" />
