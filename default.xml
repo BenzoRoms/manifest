@@ -45,8 +45,7 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="benzo" revision="nougat" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" revision="nougat" />
   <project path="prebuilts/clang/host/linux-x86/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="sabermod" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/sdk" name="xanaxdroid/prebuilts_sdk" groups="pdk" remote="bb" revision="nougat" />
 
   <!-- Packages -->
