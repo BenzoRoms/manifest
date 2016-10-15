@@ -47,6 +47,7 @@
   <project path="prebuilts/clang/host/linux-x86/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/3.9" name="xanaxdroid/dragontc-3.9" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="linaro" clone-depth="1" />
+  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="benzo" revision="nougat" />
   <project path="prebuilts/sdk" name="xanaxdroid/prebuilts_sdk" groups="pdk" remote="bb" revision="nougat" />
 
   <!-- Packages -->
@@ -471,7 +472,6 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
