@@ -88,6 +88,7 @@
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
+  <project path="external/libxml2" name="external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="benzo" />
   <project path="external/okhttp" name="external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="benzo" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" />
@@ -260,7 +261,6 @@
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libweave" name="platform/external/libweave" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
