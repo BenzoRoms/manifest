@@ -19,7 +19,7 @@
   <project path="build" name="build" groups="pdk,tradefed" remote="benzo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="benzo" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="benzo" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="benzo" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -97,7 +97,6 @@
 
   <!-- Device and kernel -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="benzo" />
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="benzo" revision="nougat" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
