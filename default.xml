@@ -98,6 +98,7 @@
 
   <!-- Device and kernel -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="benzo" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="benzo" revision="ndotone" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
