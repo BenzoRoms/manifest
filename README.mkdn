@@ -67,7 +67,7 @@ udo aptitude purge openjdk-* icedtea-* icedtea6-*
 
 sudo add-apt-repository ppa:webupd8team/java
 
-sudo aptitude update && sudo aptitude install oracle-java7-installer
+sudo aptitude update && sudo aptitude install oracle-java8-installer
 
 Install required packages
 -------------------------
