@@ -32,6 +32,9 @@
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="benzo" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="benzo" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="benzo" />
   <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="benzo" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="benzo" />
@@ -80,6 +83,8 @@
   <project path="external/aac" name="external_aac" groups="pdk" remote="benzo" />
   <project path="external/busybox" name="external_busybox" remote="benzo" />
   <project path="external/chromium-webview" name="xanaxdroid/external_chromium-webview" groups="pdk" remote="bb" revision="ndotone" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" />
   <project path="external/google" name="external_google" remote="benzo" />
@@ -89,6 +94,7 @@
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="benzo" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="benzo" />
   <project path="external/okhttp" name="external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="benzo" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" />
@@ -145,9 +151,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
@@ -265,7 +269,6 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -352,9 +355,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
