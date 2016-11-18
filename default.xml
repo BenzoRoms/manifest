@@ -48,7 +48,8 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="benzo" />
-  <project path="prebuilts/clang/host/linux-x86/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk,linux" remote="benzo" />
+  <project path="prebuilts/clang/host/linux-x86/4.0" name="dragontc-4.0" groups="pdk,linux" revision="dragon-tc" remote="benzo" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk" name="xanaxdroid/prebuilts_sdk" groups="pdk" remote="bb" revision="ndotone" />
