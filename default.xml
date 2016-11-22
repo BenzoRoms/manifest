@@ -86,6 +86,7 @@
   <project path="external/chromium-webview" name="xanaxdroid/external_chromium-webview" groups="pdk" remote="bb" revision="ndotone" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
+  <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" />
   <project path="external/google" name="external_google" remote="benzo" />
@@ -180,7 +181,6 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" />
