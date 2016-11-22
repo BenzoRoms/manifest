@@ -102,6 +102,7 @@
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="benzo" />
   <project path="external/vixl" name="external_vixl" groups="pdk" remote="benzo" />
+  <project path="external/zlib" name="external_zlib" groups="pdk" remote="benzo" />
 
   <!-- Device and kernel -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="benzo" />
@@ -353,7 +354,6 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
