@@ -93,6 +93,7 @@
   <project path="external/google" name="external_google" remote="benzo" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" />
+  <project path="external/libavc" name="external_libavc" groups="pdk" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
@@ -232,7 +233,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" />
   <project path="external/libcap" name="platform/external/libcap" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
