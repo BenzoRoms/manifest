@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRoms/"
+           revision="ndotone"/>
+  <remote  name="github"
+           fetch="https://github.com" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org" />
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
   <default revision="refs/tags/android-7.1.1_r1"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
