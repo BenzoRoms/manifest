@@ -83,7 +83,7 @@
   <!-- Externals -->
   <project path="external/aac" name="external_aac" groups="pdk" remote="benzo" />
   <project path="external/busybox" name="external_busybox" remote="benzo" />
-  <project path="external/chromium-webview" name="xanaxdroid/external_chromium-webview" groups="pdk" remote="bb" revision="ndotone" />
+  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
   <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" />
