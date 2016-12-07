@@ -65,6 +65,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="benzo" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="benzo" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <project path="packages/apps/messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="benzo" />
@@ -72,7 +73,6 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="benzo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="benzo" />
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" groups="pdk-fs" remote="benzo" />
   <project path="packages/apps/Viper4Android" name="packages_apps_Viper4Android" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="benzo" />
