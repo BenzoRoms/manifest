@@ -102,6 +102,7 @@
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="benzo" />
   <project path="external/llvm" name="external_llvm" groups="pdk" remote="benzo" />
+  <project path="external/mdnsresponder" name="external_mdnsresponder" groups="pdk" remote="benzo" />
   <project path="external/okhttp" name="external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="benzo" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" />
@@ -279,7 +280,6 @@
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/minijail" name="platform/external/minijail" />
