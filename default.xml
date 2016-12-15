@@ -29,6 +29,7 @@
   <!-- System -->
   <project path="art" name="art" groups="pdk" remote="benzo" />
   <project path="bionic" name="bionic" groups="pdk" remote="benzo" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="benzo" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
@@ -55,8 +56,8 @@
   <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk/renderscript" name="prebuilts_sdk_renderscript" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk/tools/linux" name="prebuilts_sdk_tools_linux" groups="linux,pdk,tradefed" remote="benzo" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-6.2" groups="pdk,linux,arm" remote="benzo" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-6.2" groups="pdk,linux,arm" remote="benzo" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.2" name="aarch64-linux-android-6.2" groups="pdk,linux,arm" remote="benzo" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.2" name="arm-linux-androideabi-6.2" groups="pdk,linux,arm" remote="benzo" />
 
   <!-- Packages -->
   <project path="packages/apps/BenzoOTA" name="packages_apps_BenzoOTA" remote="benzo" />
@@ -87,7 +88,6 @@
   <!-- Externals -->
   <project path="external/aac" name="external_aac" groups="pdk" remote="benzo" />
   <project path="external/busybox" name="external_busybox" remote="benzo" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
   <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" />
@@ -122,7 +122,6 @@
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -160,6 +159,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
