@@ -110,6 +110,7 @@
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="benzo" />
   <project path="external/vixl" name="external_vixl" groups="pdk" remote="benzo" />
+  <project path="external/webp" name="external_webp" groups="pdk,qcom_msm8x26" remote="benzo" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="benzo" />
 
   <!-- Device and kernel -->
@@ -353,7 +354,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
