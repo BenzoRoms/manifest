@@ -46,6 +46,7 @@
   <project path="libcore" name="libcore" groups="pdk" remote="benzo" />
   <project path="system/core" name="system_core" groups="pdk" remote="benzo" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="benzo" />
+  <project path="system/media" name="system_media" groups="pdk" remote="benzo" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="benzo" />
@@ -503,7 +504,6 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
