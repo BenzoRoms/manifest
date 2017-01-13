@@ -102,6 +102,7 @@
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
+  <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="benzo" />
   <project path="external/llvm" name="external_llvm" groups="pdk" remote="benzo" />
   <project path="external/mdnsresponder" name="external_mdnsresponder" groups="pdk" remote="benzo" />
@@ -273,7 +274,6 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libweave" name="platform/external/libweave" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
