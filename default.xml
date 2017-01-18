@@ -89,6 +89,7 @@
 
   <!-- Externals -->
   <project path="external/aac" name="external_aac" groups="pdk" remote="benzo" />
+  <project path="external/bash" name="external_bash" remote="benzo" />
   <project path="external/busybox" name="external_busybox" remote="benzo" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
@@ -100,6 +101,7 @@
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" />
   <project path="external/libavc" name="external_libavc" groups="pdk" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" />
+  <project path="external/libncurses" name="external_libncurses" remote="benzo" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" />
   <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="benzo" />
