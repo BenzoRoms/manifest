@@ -56,8 +56,8 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="xanaxdroid/aarch64-6.3" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/sdk/renderscript" name="prebuilts_sdk_renderscript" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/sdk/tools/linux" name="prebuilts_sdk_tools_linux" groups="linux,pdk,tradefed" remote="benzo" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.2" name="aarch64-linux-android-6.2" groups="pdk,linux,arm" remote="benzo" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.2" name="arm-linux-androideabi-6.2" groups="pdk,linux,arm" remote="benzo" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" name="aarch64-linux-android-6.3" groups="pdk,linux,arm" remote="benzo" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="arm-linux-androideabi-6.3" groups="pdk,linux,arm" remote="benzo" />
 
   <!-- Packages -->
   <project path="packages/apps/BenzoOTA" name="packages_apps_BenzoOTA" remote="benzo" />
