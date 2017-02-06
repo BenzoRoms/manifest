@@ -101,6 +101,7 @@
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="benzo" />
   <project path="external/libavc" name="external_libavc" groups="pdk" remote="benzo" />
+  <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="benzo" />
   <project path="external/libncurses" name="external_libncurses" remote="benzo" />
   <project path="external/libphonenumber" name="external_libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="benzo" />
@@ -248,7 +249,6 @@
   <project path="external/libcap" name="platform/external/libcap" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libchrome" name="platform/external/libchrome" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
