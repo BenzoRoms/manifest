@@ -49,8 +49,8 @@
   <project path="system/media" name="system_media" groups="pdk" remote="benzo" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="benzo" />
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" remote="benzo" revision="noneone" />
-  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="benzo" revision="noneone" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" remote="benzo" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk,linux" remote="benzo" revision="noneone" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="xanaxdroid/dragontc-5.0" groups="pdk,linux" revision="dragon-tc" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="xanaxdroid/aarch64-6.3" remote="bb" revision="linaro" clone-depth="1" />
