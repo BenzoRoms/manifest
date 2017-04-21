@@ -58,6 +58,8 @@
   <project path="prebuilts/sdk/tools/linux" name="prebuilts_sdk_tools_linux" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" name="BenzoRoms/aarch64-linux-android-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="BenzoRoms/arm-linux-androideabi-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="BenzoRoms/arm-linux-androideabi-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
+  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" groups="linux,tradefed" remote="benzo" />
 
   <!-- Packages -->
   <project path="packages/apps/BenzoOTA" name="packages_apps_BenzoOTA" remote="benzo" />
@@ -495,7 +497,6 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" />
-  <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
