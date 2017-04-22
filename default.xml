@@ -58,7 +58,6 @@
   <project path="prebuilts/sdk/tools/linux" name="prebuilts_sdk_tools_linux" groups="linux,pdk,tradefed" remote="benzo" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" name="BenzoRoms/aarch64-linux-android-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="BenzoRoms/arm-linux-androideabi-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="BenzoRoms/arm-linux-androideabi-6.3" groups="pdk,linux,arm" remote="github" revision="linaro" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" groups="linux,tradefed" remote="benzo" />
 
   <!-- Packages -->
