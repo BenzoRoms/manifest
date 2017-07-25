@@ -94,6 +94,7 @@
   <project path="external/busybox" name="external_busybox" remote="benzo" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="github" branch="cm-14.1" />
   <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" />
@@ -167,7 +168,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
@@ -314,7 +314,7 @@
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" />
+  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" remote="aosp" revision="nougat-mr2.2-release" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
