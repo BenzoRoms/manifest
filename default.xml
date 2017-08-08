@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-7.1.2_r19"
+  <default revision="refs/tags/android-7.1.2_r28"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -94,7 +94,7 @@
   <project path="external/busybox" name="external_busybox" remote="benzo" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="benzo" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="benzo" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="github" branch="cm-14.1" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/expat" name="external_expat" groups="pdk" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
   <project path="external/freetype" name="external_freetype" groups="pdk" remote="benzo" />
