@@ -46,12 +46,14 @@
 
   <!-- Packages -->
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="benzo" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="benzo" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="benzo" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="benzo" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="benzo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="benzo" />
+  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="benzo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="benzo" />
@@ -61,6 +63,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="benzo" />
 
   <!-- External -->
+  <project path="external/busybox" name="external_busybox" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/ImageMagick" name="external_ImageMagick" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
@@ -426,7 +429,6 @@
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
