@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-8.0.0_r17"
+  <default revision="refs/tags/android-8.0.0_r31"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -59,7 +59,7 @@
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="benzo" />
-  <project path="packages/services/OmniJaws" name="packages_apps_OmniJaws" remote="benzo" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="benzo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="benzo" />
 
   <!-- External -->
