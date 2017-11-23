@@ -88,6 +88,7 @@
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="benzo" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" clone-depth="1" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/6.0" name="xanaxdroid/dragontc-6.0" revision="dragon-tc" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="xanaxdroid/aarch64-8.0" remote="bb" revision="linaro" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.2" name="aarch64-linux-android-7.2" clone-depth="1" remote="benzo" revision="linaro" />
@@ -511,7 +512,6 @@
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk"  clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk"  clone-depth="1" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
